@@ -5,7 +5,7 @@ from discord.ext import commands
 from dotenv import load_dotenv
 
 from database.database import initialize
-from cogs.ticket import Ticket
+from cogs.ticket import Ticket, TicketView
 
 load_dotenv()
 
